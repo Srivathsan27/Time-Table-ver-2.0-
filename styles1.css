@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  /* background-color: red; */
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #20bf55;
+  background-image: linear-gradient(135deg, #20bf55 0%, #01baef 74%);
+}
+header {
+  /* background-color: blue; */
+  text-align: center;
+  text-decoration: 3px solid underline;
+}
+.main-container {
+  /* background-color: yellow; */
+  /* padding: 10px 15px; */
+  font-size: larger;
+
+  height: 8%;
+  width: 40%;
+  /* color: black; */
+  offset: -15px;
+  border: 3px solid;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+.subject-name {
+  font-family: sans-serif;
+}
+.separator {
+  width: 1%;
+  height: 100%;
+  background-color: white;
+}
+.link-container {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  border: none;
+  background-color: inherit;
+  height: 100%;
+  border-radius: inherit;
+  color: white;
+}
+.button a,
+.button a:link,
+.button a:hover,
+.button a:visited {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+.button a:hover {
+  color: rgb(204, 204, 204);
+}
